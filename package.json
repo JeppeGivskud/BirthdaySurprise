@@ -2,7 +2,6 @@
     "name": "birthdaysurprise",
     "version": "1.0.0",
     "main": "expo/AppEntry.js",
-    "homepage": "https://JeppeGivskud.github.io/BirthdaySurprise",
     "scripts": {
         "deploy": "gh-pages -t -d dist",
         "predeploy": "expo export -p web",
