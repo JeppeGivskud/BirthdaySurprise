@@ -45,7 +45,7 @@ export default function App() {
                             borderWidth: 2,
                             borderRadius: 30,
                             padding: 5,
-                            width: 280,
+                            width: 260,
                         }}
                     >
                         <Text style={{ width: 80 }}>CPR-NR:</Text>
@@ -166,7 +166,7 @@ const styles = StyleSheet.create({
     sendCPR: {
         alignItems: 'center',
         justifyContent: 'center',
-        width: 80,
+        width: 85,
 
         paddingHorizontal: 5,
         paddingVertical: 5,
