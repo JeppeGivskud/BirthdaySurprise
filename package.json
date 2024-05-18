@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "expo/AppEntry.js",
     "scripts": {
-        "build": "yarn expo export -p web --output-dir docs",
+        "build": "yarn expo export -p web --output-dir public",
         "android": "expo start --android",
         "ios": "expo start --ios",
         "web": "expo start --web"
