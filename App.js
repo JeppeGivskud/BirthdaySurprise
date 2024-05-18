@@ -5,7 +5,7 @@ import BiografBillet from './Components/BiografBillet';
 var oneLinerJoke = require('one-liner-joke');
 import useWindowSize from 'react-use/lib/useWindowSize';
 import Confetti from 'react-confetti';
-
+//Served with https://github.com/gitname/react-gh-pages
 export default function App() {
     const { width, height } = useWindowSize();
 
