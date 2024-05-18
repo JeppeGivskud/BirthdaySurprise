@@ -45,11 +45,18 @@ export default function App() {
                             borderWidth: 2,
                             borderRadius: 30,
                             padding: 5,
+                            width: 280,
                         }}
                     >
-                        <Text>CPR-NR:</Text>
+                        <Text style={{ width: 80 }}>CPR-NR:</Text>
                         <TextInput
-                            style={{ paddingHorizontal: 10 }}
+                            style={{
+                                width: 125,
+
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                padding: 5,
+                            }}
                             onFocus={() => {
                                 setCpr(''), setPlaceholder('');
                             }}
@@ -86,8 +93,10 @@ export default function App() {
                                 }
                             }}
                         >
-                            <Text style={{ color: 'white' }}>
-                                Send til dark net registret
+                            <Text
+                                style={{ color: '#fff', textAlign: 'center' }}
+                            >
+                                Send til "Dark Net"
                             </Text>
                         </Pressable>
                     </View>
@@ -155,14 +164,16 @@ const styles = StyleSheet.create({
         backgroundColor: 'yellow',
     },
     sendCPR: {
-        paddingHorizontal: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: 80,
+
+        paddingHorizontal: 5,
         paddingVertical: 5,
-        backgroundColor: 'rgb(30,30,30)',
+        backgroundColor: 'rgb(50,50,50)',
         borderRadius: 20,
         borderColor: 'rgb(0, 0, 0)',
         borderWidth: 2,
-        alignItems: 'center',
-        justifyContent: 'center',
     },
     container: {
         flex: 1,
