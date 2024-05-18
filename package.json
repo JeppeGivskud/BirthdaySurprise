@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "main": "expo/AppEntry.js",
     "scripts": {
-        "deploy": "gh-pages -t -d public",
-        "predeploy": "expo export -p web --output-dir dist",
+        "predeploy": "expo export -p web",
+        "deploy": "gh-pages -d dist",
         "android": "expo start --android",
         "ios": "expo start --ios",
         "web": "expo start --web"
@@ -31,5 +31,6 @@
     "devDependencies": {
         "@babel/core": "^7.20.0"
     },
-    "private": true
+    "private": true,
+    "homepage": "https://JeppeGivskud.github.io/BirthdaySurprise"
 }
