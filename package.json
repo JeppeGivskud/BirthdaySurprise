@@ -3,9 +3,7 @@
     "version": "1.0.0",
     "main": "expo/AppEntry.js",
     "scripts": {
-        "deploy": "gh-pages -d dist",
         "build": "yarn expo export -p web --output-dir docs",
-        "predeploy": "expo export",
         "android": "expo start --android",
         "ios": "expo start --ios",
         "web": "expo start --web"
